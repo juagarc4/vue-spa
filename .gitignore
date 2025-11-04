@@ -27,7 +27,7 @@ coverage
 *.tsbuildinfo
 
 .eslintcache
-
+.history
 # Cypress
 /cypress/videos/
 /cypress/screenshots/
