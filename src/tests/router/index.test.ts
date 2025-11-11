@@ -77,6 +77,13 @@ describe('Router', () => {
     const route: RouteLocationNormalized = {
       fullPath: '/pokemon/2',
       params: { id: '2abc' },
+      name: undefined,
+      matched: [],
+      query: {},
+      hash: '',
+      redirectedFrom: undefined,
+      meta: {},
+      path: '',
     };
 
     const pokemonRoute = router.getRoutes().find((route) => route.name === 'pokemon');
